@@ -26,6 +26,11 @@
 
 #![allow(dead_code, non_snake_case)]
 
+#[cfg(target_os = "macos")]
+#[link(name = "OpenAL", kind = "framework")]
+extern {}
+
+#[cfg(not(target_os = "macos"))]
 #[link(name = "openal")]
 extern {}
 
