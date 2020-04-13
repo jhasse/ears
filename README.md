@@ -6,8 +6,6 @@ __ears__ is a simple library to play sounds and music in [Rust](https://www.rust
 * Provides an access to the OpenAL spatialization functionality in a simple way.
 * Accepts a lot of audio formats, thanks to libsndfile.
 
-[Documentation](http://bixense.com/ears/ears/)
-
 ## Building
 
 You need to install OpenAL and libsndfile on your system:
